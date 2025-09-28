@@ -14,3 +14,21 @@ sudo apt install rofi
 Of course use whatever the usual syntax is for your distro's package manager.
 
 Here's a link to their [source code](https://github.com/davatorium/rofi) to build if it's not available in your distro's repos.
+
+If you cloned my whole `my-dwm` repo, move this directory to your `~/.config/` directory. You can do that with this command:
+```
+mv $THIS_DIRECTORY ~/.config/
+```
+
+If you didn't clone the whole thing, run these commands to clone my repo:
+```
+mkdir ~/.config/rofi
+```
+```
+cd ~/.config/rofi
+```
+```
+git clone https://github.com/BrianBostick/my-dwm/rofi.git
+```
+
+Everything should work once the configs are in the right place!

@@ -1,0 +1,17 @@
+
+[window]
+padding.x = 8
+padding.y = 8
+
+[font]
+normal.family = "Terminus (TTF)"
+bold.family = "Terminus (TTF)"
+italic.family = "Terminus (TTF)"
+bold_italic.family = "Terminus (TTF)"
+
+size = 7.0
+
+[general]
+# Colors
+## Uncomment the one you want to use, comment the rest
+import = ["~/.config/alacritty/colors/retro.toml"]

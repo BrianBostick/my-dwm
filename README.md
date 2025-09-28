@@ -12,6 +12,7 @@ The distro I use is Linux Mint 22.2, but these should compile just fine on any d
 - Libnotify (for the `notify-send` command) - v4, notify-send is v0.8.3
 - Amixer (to toggle mute) - v1.2.9
 - Pamixer (for setting and displaying volume level) - v1.6
+- Brightnessctl (for setting screen brightness_ - v0.5
 
 And then obviously, the Suckless suite (or at least the parts of it I like to use). All are compiled from source -
 
